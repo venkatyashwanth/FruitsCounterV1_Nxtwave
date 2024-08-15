@@ -1,0 +1,23 @@
+:root{
+    --lightClr: #ffffff;
+    --darkClr: #000000;
+    --yellowClr: #ffd569;
+    --blueClr: #007bff;
+
+    --fontVar1: "Roboto", sans-serif;
+
+    --mtop: 4rem;
+    --mtop_md: 2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+}

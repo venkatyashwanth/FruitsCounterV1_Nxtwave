@@ -1,0 +1,37 @@
+%headingText {
+    font-family: var(--fontVar1);
+    font-weight: 700;
+    font-size: 3.6rem;
+    color: var(--darkClr);
+    @media screen and (max-width: 767.5px){
+        font-size: 2.4rem;
+    }
+}
+
+%countText{
+    color: var(--yellowClr);
+}
+
+%btnHolder {
+    border: none;
+    padding: .8rem 1.4rem;
+    background-color: var(--blueClr);
+    border-radius: 4px;
+    color: var(--lightClr);
+    margin-top: var(--mtop);
+    cursor: pointer;
+    &:active {
+        background-color: var(--darkClr);
+    }
+    @media screen and (max-width: 767.5px){
+        margin-top: var(--mtop_md);
+    }
+}
+
+// Reusables
+@mixin d_colCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
